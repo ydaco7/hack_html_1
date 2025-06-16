@@ -1,0 +1,252 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.circulo-verde {
+  width: 40px;
+  height: 40px;
+  background: #7ed957;
+  border-radius: 50%;
+  display: flex;
+  margin-right: 20px;
+  margin-left: 30px;
+}
+.arimo {
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  color: #000;
+  font-family: "Arimo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px;
+  padding: 10px 20px;
+  justify-content: space-between;
+  margin: 80px 60px;
+}
+
+.soluciones {
+  display: flex;
+  margin-left: auto;
+  font-size: 20px;
+  margin-right: 60px;
+}
+
+.img-container {
+  position: relative;
+  display: inline-block;
+}
+
+.img-text {
+  display: inline-block;
+  position: absolute;
+  background-color: #00bf63;
+  top: 40%;
+  left: 16px;
+  color: #fff;
+  font-family: "Arimo", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  padding-left: 90px;
+  padding-right: 65px;
+  padding-bottom: 5px;
+}
+
+.img-text.second {
+  top: 43%;
+  left: 27px;
+  margin-top: 10px;
+  padding-right: 0;
+  padding-bottom: 8px;
+  padding-left: 90px;
+  font-weight: 600;
+}
+.img-text.third {
+  top: 46%;
+  left: 25px;
+  margin-top: 25px;
+  padding-right:245px;
+  padding-bottom: 5px;
+  font-weight: 600;
+  padding-left: 90px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+  /* width: 70%; */
+  z-index: 2;
+}
+.dejanos {
+  position: absolute;
+  display: inline-block;
+  background-color: #000000;
+  top: 58%;
+  left: 15px;
+  color: #fff;
+  font-family: "Arimo", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  width: 660px;
+  padding-left: 80px;
+  padding-right: 30;
+}
+.dejanos2 {
+  position: absolute;
+  display: inline-block;
+  background-color: #000000;
+  top: 60%;
+  left: 25px;
+  color: #fff;
+  font-family: "Arimo", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  width: 450px;
+  padding-left: 70px;
+  padding-bottom: 5px;
+}
+
+.images img {
+  width: 1250px;
+  height: auto;
+}
+
+.container {
+  background: #ffffff;
+  /* padding: 0px; */
+  margin: 20px auto 100px auto;
+}
+
+.esto {
+  display: flex;
+  flex-direction: column;
+  justify-content: first baseline;
+  align-items: first baseline;
+  position: relative;
+  font-family: "Arimo", sans-serif;
+  font-weight: 540;
+  font-style: normal;
+  font-size: 40px;
+  letter-spacing: 1px;
+  padding: 30px 20px 10px;
+}
+
+.esto2 {
+  display: flex;
+  justify-content: left;
+  align-items: start;
+  position: relative;
+  font-family: "Arimo", sans-serif;
+  font-weight: 450;
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: 1px;
+  /* margin-left: 20px; */
+  padding: 0 20px;
+}
+
+.imagenes-lado-a-lado {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.imagenes-lado-a-lado img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.articulos {
+  padding: 30px 20px 24px 20px;
+  max-width: 320px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.img-container2 {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.texto-screen {
+  font-family: "Arimo", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+}
+
+.texto-p-screen {
+  font-family: "Arimo", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.texto-code {
+  font-family: "Arimo", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  justify-content: left;
+  align-items: left;
+  text-align: left;
+}
+
+.texto-p-code {
+  font-family: "Arimo", sans-serif;
+  font-weight: normal;
+  font-size: 17px;
+  margin-top: 5px;
+}
+
+.texto-laptop {
+  font-family: "Arimo", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  justify-content: center;
+  align-items: auto;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.texto-p-laptop {
+  font-family: "Arimo", sans-serif;
+  font-weight: normal;
+  font-size: 17px;
+  margin-top: 5px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+footer {
+  margin-top: auto;
+  background: #00bf63;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.texto-footer {
+  font-family: "Arimo", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  color: #fff;
+}

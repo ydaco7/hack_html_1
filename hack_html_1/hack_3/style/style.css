@@ -1,0 +1,46 @@
+.block{
+    background: #93B5C9;
+    height: 150px;
+}
+
+.wineblock{
+    background: #AB2849;
+    height: 250px}
+
+
+    .contenedor{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+}
+
+
+.hijo{
+    width: 80%;
+    background:#AB2849;
+    height: 200px;
+    margin-top: 20px;
+}
+
+
+.hijo-split{
+    display: flex;
+    gap: 5px;
+    width: 80%;
+    height: 200px;
+    margin-top: 20px;}
+
+.hijo-split div{
+    background: #AB2849;
+    height: 200px;
+    width: 80%;
+}   
+
+.last {
+    background: #AB2849;
+    width: 96%;
+    height: 100px;
+    margin: 30px auto 10px auto; 
+
+}

@@ -1,0 +1,59 @@
+.block{
+    background:#93B5C9;
+    height: 100px;
+}
+
+.wineblock{
+    background: #AB2849;
+    height: 260px;
+}
+.contenedor{
+    margin-top: 15px ;
+    position: relative;
+
+}
+
+.hijo{
+    float: left;
+    margin-bottom: 10px;
+    width: 1120px;
+    background:#AB2849;
+    height: 120px;
+    right: 0;
+    }
+ .p1 {
+    float: left;
+    margin-bottom: 10px;
+    top: 140px;
+    width: 1120px;
+    background:#AB2849;
+    height: 120px;
+    right: 0;
+    }
+
+    .p2{
+    float: left;
+    margin-bottom: 10px;
+    top: 280px;
+    width: 1120px;
+    background:#AB2849;
+    height: 130px;
+    right: 0;
+    }
+    .p3{
+    float: left;
+    margin-bottom: 10px;
+    top: 430px;
+    width: 1120px;
+    background:#AB2849;
+    height: 130px;
+    right: 0;
+    }
+
+.last {
+    background: #AB2849;
+    width: 96%;
+    height: 100px;
+    margin: 585px auto 10px auto; 
+    position: static;
+}

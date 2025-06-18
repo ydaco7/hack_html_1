@@ -14,14 +14,14 @@ correo: yadielarias@gmail.com
 PULL_REQUEST_TEMPLATE
 
 # Tecnología
-- [ ] HTML
-- [ ] CSS3
-- [ ] docs
+- [x] HTML
+- [x] CSS3
+- [x] docs
 
 # Seleccione el tipo de actividad
-- [ ] Feature
-- [ ] Changes
+- [x] Feature
+- [x] Changes
 - [ ] Hotfix
 - [ ] Refactor
-- [ ] Performance
+- [x] Performance
 - [ ] Testing
